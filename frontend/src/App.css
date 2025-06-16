@@ -1,0 +1,96 @@
+body {
+  background-color: #fff1db;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App, .content {
+  padding: 2rem;
+}
+
+.title {
+  color: #493129;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.card {
+  background-color: #ffdec7;
+  border: 2px solid #efa3a0;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 320px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  color: #8b597b;
+  margin-bottom: 1rem;
+}
+
+input {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.6rem;
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #efa3a0;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e6787b;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #fddac8;
+  padding: 1rem;
+  border-right: 2px solid #efa3a0;
+}
+
+.sidebar h2 {
+  color: #493129;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 1rem 0;
+  cursor: pointer;
+  color: #493129;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.sidebar li:hover {
+  color: #8b597b;
+}
+
+.token, .welcome {
+  color: #493129;
+}
