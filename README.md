@@ -17,24 +17,35 @@ Bu proje, **React** ile geliştirilmiş ön yüz, **FastAPI** ile yazılmış ar
 ## Klasör Yapısı
 
 takas/
-├── frontend/ # React tabanlı ön yüz uygulaması
-├── backend/ # FastAPI tabanlı arka yüz uygulaması
-└── README.md # Proje açıklamaları
+- Frontend/ # React tabanlı ön yüz uygulaması
+- Backend/ # FastAPI tabanlı arka yüz uygulaması
+- README.md # Proje açıklamaları
 
 ---
 
 ## Çalıştırma Talimatları
 
 ### Backend (FastAPI)
-
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # Windows PowerShell için: .\venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-uvicorn main:app --reload
+- cd backend
+- python -m venv venv
+- source venv/bin/activate  # Windows PowerShell için: .\venv\Scripts\Activate.ps1
+- pip install -r requirements.txt
+- uvicorn main:app --reload
 
 ### Frontend (React)
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
+
+---
+
+## Kullanılan Teknolojiler
+
+- Frontend: React
+- Backend: FastAPI (Python)
+- Veritabanı: PostgreSQL
+- Blockchain: Takas işlemleri için
+- Authentication: JWT
+
+
+
